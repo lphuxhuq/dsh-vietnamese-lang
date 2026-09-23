@@ -25,7 +25,7 @@ dsh plugin --profile web add dsh-vietnamese-lang
 Or from source / GitHub repository:
 
 ```sh
-dsh plugin --profile web add https://github.com/lephuchung/dsh-vietnamese-lang
+dsh plugin --profile web add https://github.com/lphuxhuq/dsh-vietnamese-lang
 ```
 
 After installation, refresh the DeepSeek Harness Web GUI, go to **Settings (Cài đặt) > General (Cài đặt chung) > Language (Ngôn ngữ)** and choose **Tiếng Việt**.

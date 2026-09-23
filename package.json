@@ -49,5 +49,13 @@
     "vietnamese",
     "tieng-viet"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lphuxhuq/dsh-vietnamese-lang.git"
+  },
+  "homepage": "https://github.com/lphuxhuq/dsh-vietnamese-lang#readme",
+  "bugs": {
+    "url": "https://github.com/lphuxhuq/dsh-vietnamese-lang/issues"
+  },
   "license": "MIT"
 }

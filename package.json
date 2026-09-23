@@ -1,0 +1,53 @@
+{
+  "name": "dsh-vietnamese-lang",
+  "version": "0.1.0",
+  "description": "Vietnamese language pack for DeepSeek Harness Web UI with full coverage across 50 core namespaces.",
+  "type": "module",
+  "main": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.mjs"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "index.d.ts",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.vi.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=4.0.0-rc.8 <5.0.0",
+    "@deepseek-ai/dsh-client-locale": ">=0.1.0-rc.1 <0.2.0-0"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "locale",
+    "i18n",
+    "vietnamese",
+    "tieng-viet"
+  ],
+  "license": "MIT"
+}

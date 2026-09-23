@@ -1,0 +1,6 @@
+url: https://github.com/lephuchung/dsh-vietnamese-lang
+name: lephuchung/dsh-vietnamese-lang
+category: ui
+description:
+  en: Adds Vietnamese (Tiếng Việt) as a native language option in Settings for DeepSeek Harness Web UI, with full coverage across 50 core namespaces.
+  zh: 为 DeepSeek Harness Web UI「设置 - 通用 - 语言」加入越南语选项，完整覆盖 50 个核心命名空间词条。
